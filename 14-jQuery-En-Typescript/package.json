@@ -1,0 +1,20 @@
+{
+  "name": "librerias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "Chris Marquez",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.4",
+    "jquery": "^3.5.1",
+    "systemjs": "^0.19.41"
+  }
+}

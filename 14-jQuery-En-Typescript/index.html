@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+  </head>
+  <body>
+
+    <h1>Hola Mundo <small>saludos</small></h1>
+    <p>
+      Este es un texto
+    </p>
+    <button type="button" id="botAlerta">Click aquí</button>
+
+
+
+    <script src="node_modules/systemjs/dist/system.js"></script> <!-- Estamos utilizando solamente lo necesario  -->
+    <script>
+      // set our baseURL reference path Solo utilizamos el jquery.min.js
+      SystemJS.config({
+        baseURL: '/',
+        map: {
+          "jquery":"node_modules/jquery/dist/jquery.min.js"
+        },
+        defaultJSExtensions:true
+      });
+
+      // loads /js/main.js
+      SystemJS.import('app.js');
+    </script>
+
+
+  </body>
+</html>

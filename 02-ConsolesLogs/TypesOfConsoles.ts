@@ -3,6 +3,7 @@ const Person = {
     twitter: "Miguel El Gato",
     frontend: true
 }
+
 let Hola:string = "Hola"
 
 console.time(Hola)
