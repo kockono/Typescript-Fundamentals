@@ -6,15 +6,16 @@ const Person = {
 
 let Hola:string = "Hola"
 
-console.time(Hola)
+console.time("Hola")
 console.log("Hola Mundo");
 console.info("Hola Info");
 console.warn("Hola Warning");
 console.error("Hola Error");
-console.table(Person);
+console.table("Table");
+
 setTimeout(() => {
     
-    console.timeEnd(Hola)
+    console.timeEnd("Hola")
 }, 1500);
 
 
