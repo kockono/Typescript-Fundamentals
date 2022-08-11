@@ -1,3 +1,5 @@
+import { Producto, Marca } from './interfaces';
+
 interface Xmen {
     nombre: string,
     poder?: string //Opcional
@@ -17,6 +19,9 @@ function enviarMision(xmen: {nombre:string, poder?:string}) {
 }
 
 function enviarCuartel(xmen: Xmen ) {
+  let hola:Marca;
+  let pedro:Producto;
+  
     console.log("Enviando a: "+xmen.nombre);
     xmen.regenerar("Logan");
 }
